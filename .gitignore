@@ -44,5 +44,11 @@ Thumbs.db
 *.parquet
 *.pkl
 
+# Ignore Excel sample files and temp lock files in data/
+# - all .xlsx sample files
+# - Excel temporary lock files that begin with ~$
+data/*.xlsx
+data/~$*.xlsx
+
 # Optional: ignore data directory (uncomment if you don't want to commit sample data)
 # data/
