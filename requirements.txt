@@ -1,0 +1,6 @@
+pandas
+duckdb
+openpyxl
+langchain
+langchain-openai
+python-dotenv
